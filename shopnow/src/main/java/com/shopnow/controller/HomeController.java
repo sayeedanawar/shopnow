@@ -31,5 +31,15 @@ public class HomeController {
 	public String contact(Model model) {
 		return "contact";
 	}
+	
+	@GetMapping("/signup")
+	public String signup(Model model) {
+		return "signup";
+	}
+	
+	@GetMapping("/login")
+	public String login(Model model) {
+		return "login";
+	}
 
 }
